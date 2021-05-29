@@ -82,7 +82,7 @@ public class CandidateManager implements CandidateService {
 												candidate.getBirthDate()).isSuccess()) {
 			return new SuccessResult();
 		}
-		return new ErrorResult("Doğrulama başarısız.");
+		return new ErrorResult("Doğrulama başarısız");
 	}
 
 }
